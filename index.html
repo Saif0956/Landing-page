@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Professional Web Developer</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#showreel">Showreel</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Creating Beautiful and Functional Websites</h2>
+            <p>Transforming your ideas into a stunning online presence.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate web developer with experience in creating modern and responsive websites.</p>
+        </div>
+    </section>
+
+    <!-- Showreel Section -->
+    <section id="showreel" class="showreel">
+        <div class="container">
+            <h2>Showreel</h2>
+            <video controls>
+                <source src="images/showreel.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="images/project2.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                </div>
+                <div class="project">
+                    <img src="images/project3.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                </div>
+                <div class="project">
+                    <img src="images/project4.jpg" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Services Offered</h2>
+            <ul>
+                <li>Website Design</li>
+                <li>Website Development</li>
+                <li>Responsive Web Design</li>
+                <li>SEO Optimization</li>
+                <li>Web Maintenance</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <div class="testimonial">
+                <p>"Outstanding work! My website looks amazing and functions perfectly."</p>
+                <span>- Rahul kumar</span>
+            </div>
+            <div class="testimonial">
+                <p>"Delivered on time and exceeded expectations. Highly recommended!"</p>
+                <span>- saif khan</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Web Developer Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
